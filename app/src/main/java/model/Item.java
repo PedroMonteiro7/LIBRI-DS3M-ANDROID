@@ -1,5 +1,6 @@
 package model;
 
+// guarda categorias e os objetos que possuem uma delas
 public class Item {
 
     /* types:
@@ -14,6 +15,7 @@ public class Item {
     public Item(int type, Object object) {
         this.type = type;
         this.object = object;
+        //classe primitiva primordial que pode receber qualquer coisa
     }
 
     public int getType() {

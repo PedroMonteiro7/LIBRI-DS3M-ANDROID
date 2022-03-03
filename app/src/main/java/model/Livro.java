@@ -1,6 +1,6 @@
 package model;
 
-// Manipula os valores de título e descrição (transporta dados)
+// Manipula os valores de título e descrição (representa e transporta dados)
 public class Livro {
 
     private String titulo, descricao;
