@@ -18,9 +18,7 @@ public class Item {
         //classe primitiva primordial que pode receber qualquer coisa
     }
 
-    public int getType() {
-        return type;
-    }
+    public int getType() { return type; }
 
     public Object getObject() {
         return object;

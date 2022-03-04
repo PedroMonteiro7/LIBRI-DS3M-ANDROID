@@ -207,7 +207,7 @@ public class SQLHelper extends SQLiteOpenHelper {
         SQLiteDatabase db = getReadableDatabase();
 
         //rawQuery requer o comando SQL e o(s) dado(s) da condição
-        Cursor cursor = db.rawQuery("SELECT * FROM tbl_livros WHERE cod_usuario = ?", new String[]{"1"});
+        Cursor cursor = db.rawQuery("SELECT * FROM tbl_livro WHERE cod_usuario = ?", new String[]{"1"});
                                                                        //é um array de string porque podem ter várias condições de diferentes tipos
 
         try {

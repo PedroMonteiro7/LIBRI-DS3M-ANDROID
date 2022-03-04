@@ -14,7 +14,5 @@ public class Livro {
         return titulo;
     }
 
-    public String getDescricao() {
-        return descricao;
-    }
+    public String getDescricao() { return descricao; }
 }
